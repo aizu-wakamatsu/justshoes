@@ -1,0 +1,34 @@
+* {
+    background: blue;
+}
+div.comp{
+    position:absolute;
+    height: 10%;
+    left:55%;
+    right: 5%;
+    border-style: dashed;
+}
+div.title {
+    position:absolute;
+    width: 20%;
+    left: 2%;
+    border-style: none;
+    font-size: 20pt;
+}
+div.atayi{
+    position:absolute;
+    width: 20%;
+    top: 10%;
+    left: 50%;
+    border-style: none;
+    font-size: 40pt;
+}
+
+div.tanyi{
+    position:absolute;
+    width: 6%;
+    top:50%;
+    left: 90%;
+    border-style: none;
+    font-size: 20pt;
+}
