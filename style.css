@@ -1,5 +1,5 @@
 * {
-    background: blue;
+    background: #AAFFFF;
 }
 div.comp{
     position:absolute;
@@ -7,6 +7,8 @@ div.comp{
     left:55%;
     right: 5%;
     border-style: dashed;
+    background: #FFAA55;
+    border-radius: 1em;
 }
 div.title {
     position:absolute;
@@ -14,6 +16,7 @@ div.title {
     left: 2%;
     border-style: none;
     font-size: 20pt;
+    background: inherit;
 }
 div.atayi{
     position:absolute;
@@ -22,6 +25,7 @@ div.atayi{
     left: 50%;
     border-style: none;
     font-size: 40pt;
+    background: inherit;
 }
 
 
@@ -32,4 +36,14 @@ div.tanyi{
     left: 90%;
     border-style: none;
     font-size: 20pt;
+    background: inherit;
+}
+
+
+div#hoswu{
+top: 10%;
+}
+
+div#stairs {
+top: 30%;
 }
