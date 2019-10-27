@@ -1,49 +1,71 @@
 * {
-    background: #AAFFFF;
+	background: #AAFFFF;
+	/*background: linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url(background.jpg);*/
+	background-image: url(“background.jpg”);
+	background-repeat:  no-repeat;
+	background-position: center;
+	background-size:contain;
 }
 div.comp{
-    position:absolute;
-    height: 10%;
-    left:55%;
-    right: 5%;
-    border-style: dashed;
-    background: #FFAA55;
-    border-radius: 1em;
+	position:absolute;
+	height: 10%;
+	left:55%;
+	right: 5%;
+	border-style: dashed;
+	background: #FFAA55;
+	border-radius: 1em;
 }
 div.title {
-    position:absolute;
-    width: 20%;
-    left: 2%;
-    border-style: none;
-    font-size: 20pt;
-    background: inherit;
+	position:absolute;
+	width: 30%;
+	left: 2%;
+	border-style: none;
+	font-size: 20pt;
+	background: inherit;
 }
 div.atayi{
-    position:absolute;
-    width: 20%;
-    top: 10%;
-    left: 50%;
-    border-style: none;
-    font-size: 40pt;
-    background: inherit;
+	position:absolute;
+	width: 20%;
+	top: 10%;
+	left: 50%;
+	border-style: none;
+	font-size: 40pt;
+	background: inherit;
 }
 
 
 div.tanyi{
-    position:absolute;
-    width: 6%;
-    top:50%;
-    left: 90%;
-    border-style: none;
-    font-size: 20pt;
-    background: inherit;
+	position:absolute;
+	width: 6%;
+	top:50%;
+	left: 90%;
+	border-style: none;
+	font-size: 20pt;
+	background: inherit;
+}
+
+
+div.advice{
+	position:absolute;
+	width: 80%;
+	height: 15%;
+	top: 80%;
+	left: 10%;
+	padding: 1%;
+	border-style: dashed;
+	background: #55FFAA;
+	border-radius: 1em;
 }
 
 
 div#hoswu{
-top: 10%;
+	top: 10%;
 }
 
 div#stairs {
-top: 30%;
+	top: 30%;
+}
+
+div#calorie {
+	top: 50%;
 }
